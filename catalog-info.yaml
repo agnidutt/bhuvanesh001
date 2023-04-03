@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bhuvanesh001"
+  description: "bhuvanesh1"
+  annotations:
+    argocd/app-name: "bhuvanesh001"
+    sonarqube.org/project-key: "bhuvanesh001"
+    jenkins.io/job-full-name: "bhuvanesh001_App_Pipeline"
+    #github.com/project-slug: kbmdev/bhuvanesh001
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "bhuvanesh001"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/intake"
